@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ignacio Pantoja">
+    <meta name="description" content="TP Final para Curso JavaScript">
+    <meta name="keywords" content="picker, selector, random">
+    <link rel="stylesheet" href="style.css">
+    <title>Selector de opciones</title>
+</head>
+<body>
+    <div id="cuadro">
+        <div id="contenido">
+            <h1>¡Selector aleatorio!</h1>
+            <div id="form">
+                <input type="text" id="option" placeholder="Inserte opciones" required title="Obligatorio">
+                <button id="add">Agregar</button>
+            </div>    
+        </div>
+        <div id="opciones">
+            <span id="span1" class="span">Sus opciones aparecerán aquí</span>
+        </div>
+        <button id="pick" onclick="selectorRandom();">Elegir!</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#cuadro{
+    width: 600px;
+    height: 300px;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-family: Poppins;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p, span, button{
+    font-family: Poppins;
+    font-weight: 300;
+    color: white;
+}
+
+p{
+    text-decoration: underline;
+}
+
+#option{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+#option::placeholder{
+    color: grey;
+}
+
+#add{
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border: 1px solid #fff
+}
+.form{
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#pick{
+    margin-top: 40px;
+    color: white;
+    border: none;
+    border: 1px solid #fff;
+}
+
+span{
+    color: white;
+}
+
